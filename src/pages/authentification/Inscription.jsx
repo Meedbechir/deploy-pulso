@@ -5,6 +5,8 @@ import { registerUser } from "../../components/services/AuthServices";
 import { setUser, setToken } from "../../components/features/AuthSlice";
 import { Toaster, toast } from "sonner";
 import { Link, useNavigate } from "react-router-dom";
+import React from 'react';
+
 
 const Inscription = () => {
   const dispatch = useDispatch();

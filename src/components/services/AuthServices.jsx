@@ -1,4 +1,6 @@
 import axios from "axios";
+import React from 'react';
+
 
 const API_BASE_URL = "https://pulso-backend.onrender.com/api/user/";
 
