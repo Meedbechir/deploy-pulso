@@ -3,8 +3,11 @@ import { Button } from "@mui/material";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import { NavLink } from "react-router-dom";
 
+
 const Home = () => {
+  const a = 5;
   return (
+
     <div className="flex items-center justify-center h-screen font-sans">
       <div className="text-center">
         <h1 className="text-gray-800 text-5xl font-black mb-8">
