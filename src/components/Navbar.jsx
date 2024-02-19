@@ -2,8 +2,6 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { logout, selectToken } from "../components/features/AuthSlice";
-import React from 'react';
-
 
 const Navbar = () => {
   const dispatch = useDispatch();

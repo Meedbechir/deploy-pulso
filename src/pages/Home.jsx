@@ -2,8 +2,6 @@
 import { Button } from "@mui/material";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import { NavLink } from "react-router-dom";
-import React from 'react';
-
 
 const Home = () => {
   return (

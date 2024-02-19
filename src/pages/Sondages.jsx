@@ -4,8 +4,6 @@ import axios from "axios";
 // import UpdateIcon from "@mui/icons-material/Update";
 import { useSelector } from "react-redux";
 import { selectToken } from "../components/features/AuthSlice";
-import React from 'react';
-
 
 const Sondages = () => {
   const [sondage, setSondages] = useState([]);
